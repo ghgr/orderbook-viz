@@ -10,7 +10,6 @@ import subprocess
 
 def stream_data_coinbase_l2update(fpath, product_id):
 
-	total_lines = int(subprocess.check_output(["wc", "-l",  fpath]).decode().split()[0])
 	datas = []
 	with open(fpath) as f:
 		for n, line in enumerate(f):
@@ -45,6 +44,6 @@ def stream_data_coinbase_l2update(fpath, product_id):
 
 	
 		
-			yield 100.0/total_lines*n, data
+			yield data 
 
 

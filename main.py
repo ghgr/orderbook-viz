@@ -51,7 +51,7 @@ if __name__=="__main__":
 	idx_x = 0
 
 
-	for n, (pct,elem) in enumerate(it):
+	for n, elem in enumerate(it):
 
 
 		# READ ORDERBOOK
