@@ -18,6 +18,6 @@ The sample data contains 30 minutes of raw tick-by-tick updates of the Level II 
 3. Run main.py
 
 
-You should get something similar to the following image, showing the evolution of the order book for each prive level along time.
+You should get something similar to the following image, showing the evolution of the order book for each price level along time.
 
 ![Sample Output](output.png)
